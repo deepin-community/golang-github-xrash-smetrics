@@ -1,5 +1,43 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-xrash-smetrics (0.0~git20201216.039620a-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+
+  [ Anthony Fok ]
+  * debian/gbp.conf: Set debian-branch to debian/sid for DEP-14 conformance
+  * Set debian/watch to track Git HEAD
+  * New upstream version 0.0~git20201216.039620a
+  * Change Section from devel to golang
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Bump Standards-Version to 4.6.0 (no change)
+  * Add "Rules-Requires-Root: no" to debian/control
+  * Include full name of copyright holder in debian/copyright
+  * Add "--builddirectory=_build" to dh call in debian/rules
+
+ -- Anthony Fok <foka@debian.org>  Tue, 28 Dec 2021 23:08:49 -0700
+
+golang-github-xrash-smetrics (0.0~git20170218.a3153f7-2) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Thorsten Alteholz ]
+  * upload source package
+  * add myself to Uploaders:
+  * debian/control: Bump debhelper from old 12 to 13.
+  * debian/control: Update standards version to 4.5.1, no changes needed.
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Wed, 06 Jan 2021 17:58:46 +0000
+
+golang-github-xrash-smetrics (0.0~git20170218.a3153f7-1) unstable; urgency=medium
+
+  [ Aninthitha, Meenakshi Aiswarya ]
+  * Initial release (Closes: #926077)
+
+ -- Meenakshi Aiswarya <aishgns@gmail.com>  Sun, 31 Mar 2019 15:28:17 +0530
